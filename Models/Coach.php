@@ -53,6 +53,7 @@ class Coach extends Person
      */
     public function getName()
     {
+		echo "getName";
         return $this->name;
     }
     /**
